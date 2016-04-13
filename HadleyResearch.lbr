@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -236,45 +236,45 @@ package type SS</description>
 <circle x="-4.2545" y="-1.7145" radius="0.34195625" width="0.2032" layer="21"/>
 </package>
 <package name="CAST24">
-<description>24-pin castellated PCB</description>
-<smd name="1" x="0" y="10.9" dx="2" dy="0.8" layer="1"/>
-<smd name="2" x="0" y="9.7" dx="2" dy="0.8" layer="1"/>
-<smd name="3" x="0" y="8.5" dx="2" dy="0.8" layer="1"/>
-<smd name="4" x="0" y="7.3" dx="2" dy="0.8" layer="1"/>
-<smd name="5" x="0" y="6.1" dx="2" dy="0.8" layer="1"/>
-<smd name="6" x="0" y="4.9" dx="2" dy="0.8" layer="1"/>
-<smd name="7" x="0" y="3.7" dx="2" dy="0.8" layer="1"/>
-<smd name="8" x="0" y="2.5" dx="2" dy="0.8" layer="1"/>
-<smd name="9" x="0" y="0" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="10" x="2.75" y="0" dx="2" dy="0.8" layer="1" rot="R270"/>
-<smd name="11" x="3.95" y="0" dx="2" dy="0.8" layer="1" rot="R270"/>
-<smd name="12" x="5.15" y="0" dx="2" dy="0.8" layer="1" rot="R270"/>
-<smd name="13" x="6.35" y="0" dx="2" dy="0.8" layer="1" rot="R270"/>
-<smd name="14" x="7.55" y="0" dx="2" dy="0.8" layer="1" rot="R270"/>
-<smd name="15" x="8.75" y="0" dx="2" dy="0.8" layer="1" rot="R270"/>
-<smd name="16" x="11.7" y="0" dx="1" dy="1" layer="1"/>
-<smd name="17" x="11.7" y="2.5" dx="2" dy="0.8" layer="1"/>
-<smd name="18" x="11.7" y="3.7" dx="2" dy="0.8" layer="1"/>
-<smd name="19" x="11.7" y="4.9" dx="2" dy="0.8" layer="1"/>
-<smd name="20" x="11.7" y="6.1" dx="2" dy="0.8" layer="1"/>
-<smd name="21" x="11.7" y="7.3" dx="2" dy="0.8" layer="1"/>
-<smd name="22" x="11.7" y="8.5" dx="2" dy="0.8" layer="1"/>
-<smd name="23" x="11.7" y="9.7" dx="2" dy="0.8" layer="1"/>
-<smd name="24" x="11.7" y="10.9" dx="2" dy="0.8" layer="1"/>
-<wire x1="0" y1="1.2" x2="0" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.2" y1="0" x2="2.1" y2="0" width="0.127" layer="21"/>
-<wire x1="9.4" y1="0" x2="10.4" y2="0" width="0.127" layer="21"/>
-<wire x1="11.8" y1="1.2" x2="11.8" y2="1.9" width="0.127" layer="21"/>
-<wire x1="0" y1="11.6" x2="0" y2="19.5" width="0.127" layer="21"/>
-<wire x1="0" y1="19.5" x2="11.7" y2="19.5" width="0.127" layer="21"/>
-<wire x1="11.7" y1="19.5" x2="11.7" y2="11.5" width="0.127" layer="21"/>
-<rectangle x1="1.85" y1="12.95" x2="4.05" y2="14.55" layer="41"/>
-<rectangle x1="0.4" y1="12" x2="1.6" y2="13.2" layer="51"/>
-<rectangle x1="10.1" y1="12" x2="11.3" y2="13.2" layer="51"/>
-<rectangle x1="0.4" y1="0.6" x2="1.6" y2="1.8" layer="51"/>
-<rectangle x1="10.2" y1="0.6" x2="11.4" y2="1.8" layer="51"/>
-<rectangle x1="0" y1="14.6" x2="11.7" y2="19.5" layer="41"/>
-<rectangle x1="0" y1="14.6" x2="11.6" y2="19.5" layer="42"/>
+<description>24-pin castellated PCB design used by RN4020</description>
+<smd name="1" x="-5.715" y="3.915" dx="2" dy="0.8" layer="1"/>
+<smd name="2" x="-5.715" y="2.715" dx="2" dy="0.8" layer="1"/>
+<smd name="3" x="-5.715" y="1.515" dx="2" dy="0.8" layer="1"/>
+<smd name="4" x="-5.715" y="0.315" dx="2" dy="0.8" layer="1"/>
+<smd name="5" x="-5.715" y="-0.885" dx="2" dy="0.8" layer="1"/>
+<smd name="6" x="-5.715" y="-2.085" dx="2" dy="0.8" layer="1"/>
+<smd name="7" x="-5.715" y="-3.285" dx="2" dy="0.8" layer="1"/>
+<smd name="8" x="-5.715" y="-4.485" dx="2" dy="0.8" layer="1"/>
+<smd name="9" x="-5.715" y="-6.985" dx="1" dy="1" layer="1" rot="R180"/>
+<smd name="10" x="-2.965" y="-6.985" dx="2" dy="0.8" layer="1" rot="R270"/>
+<smd name="11" x="-1.765" y="-6.985" dx="2" dy="0.8" layer="1" rot="R270"/>
+<smd name="12" x="-0.565" y="-6.985" dx="2" dy="0.8" layer="1" rot="R270"/>
+<smd name="13" x="0.635" y="-6.985" dx="2" dy="0.8" layer="1" rot="R270"/>
+<smd name="14" x="1.835" y="-6.985" dx="2" dy="0.8" layer="1" rot="R270"/>
+<smd name="15" x="3.035" y="-6.985" dx="2" dy="0.8" layer="1" rot="R270"/>
+<smd name="16" x="5.985" y="-6.985" dx="1" dy="1" layer="1"/>
+<smd name="17" x="5.985" y="-4.485" dx="2" dy="0.8" layer="1"/>
+<smd name="18" x="5.985" y="-3.285" dx="2" dy="0.8" layer="1"/>
+<smd name="19" x="5.985" y="-2.085" dx="2" dy="0.8" layer="1"/>
+<smd name="20" x="5.985" y="-0.885" dx="2" dy="0.8" layer="1"/>
+<smd name="21" x="5.985" y="0.315" dx="2" dy="0.8" layer="1"/>
+<smd name="22" x="5.985" y="1.515" dx="2" dy="0.8" layer="1"/>
+<smd name="23" x="5.985" y="2.715" dx="2" dy="0.8" layer="1"/>
+<smd name="24" x="5.985" y="3.915" dx="2" dy="0.8" layer="1"/>
+<wire x1="-5.715" y1="-5.785" x2="-5.715" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-4.515" y1="-6.985" x2="-3.615" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="3.685" y1="-6.985" x2="4.685" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="6.085" y1="-5.785" x2="6.085" y2="-5.085" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="4.615" x2="-5.715" y2="12.515" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="12.515" x2="5.985" y2="12.515" width="0.127" layer="21"/>
+<wire x1="5.985" y1="12.515" x2="5.985" y2="4.515" width="0.127" layer="21"/>
+<rectangle x1="-3.865" y1="5.965" x2="-1.665" y2="7.565" layer="41"/>
+<rectangle x1="-5.315" y1="5.015" x2="-4.115" y2="6.215" layer="51"/>
+<rectangle x1="4.385" y1="5.015" x2="5.585" y2="6.215" layer="51"/>
+<rectangle x1="-5.315" y1="-6.385" x2="-4.115" y2="-5.185" layer="51"/>
+<rectangle x1="4.485" y1="-6.385" x2="5.685" y2="-5.185" layer="51"/>
+<rectangle x1="-5.715" y1="7.615" x2="5.985" y2="12.515" layer="41"/>
+<rectangle x1="-5.715" y1="7.615" x2="5.885" y2="12.515" layer="42"/>
 </package>
 <package name="MESH_15X15">
 <description>A 15mm x 15mm silicone rubber mesh button, similar to that used in the Adafruit Trellis project.
@@ -284,7 +284,7 @@ More Information: &lt;a href="https://www.adafruit.com/products/1611"&gt;https:/
 <wire x1="7.5" y1="-7.5" x2="7.5" y2="7.5" width="0.127" layer="51"/>
 <wire x1="7.5" y1="7.5" x2="-7.5" y2="7.5" width="0.127" layer="51"/>
 <wire x1="-7.5" y1="7.5" x2="-7.5" y2="-7.5" width="0.127" layer="51"/>
-<smd name="1" x="0" y="-3.5" dx="2" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="0" y="-3.1" dx="1" dy="0.5" layer="1" rot="R90"/>
 <smd name="2" x="0" y="5.125" dx="0.5" dy="0.5" layer="1" rot="R90"/>
 <circle x="0" y="0" radius="2.51246875" width="0.4" layer="1"/>
 <wire x1="1.34150625" y1="-2.383971875" x2="2.09150625" y2="-3.6830125" width="0.4" layer="1"/>
@@ -390,10 +390,10 @@ Additional Information: &lt;a href="http://www.microchip.com/wwwproducts/en/RN40
 <description>&lt;b&gt;Switch&lt;/b&gt;
 &lt;br&gt;
 A simple, 2-terminal switch.</description>
-<pin name="1" x="0" y="-7.62" visible="pad" length="middle" swaplevel="1" rot="R90"/>
-<pin name="2" x="0" y="5.08" visible="pad" length="middle" swaplevel="1" rot="R270"/>
+<pin name="1" x="0" y="-5.08" visible="off" length="short" swaplevel="1" rot="R90"/>
+<pin name="2" x="0" y="2.54" visible="off" length="short" swaplevel="1" rot="R270"/>
 <wire x1="0" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
-<text x="2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.27" y="-4.064" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
