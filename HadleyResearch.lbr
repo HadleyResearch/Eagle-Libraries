@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -311,6 +311,31 @@ More Information: &lt;a href="https://www.adafruit.com/products/1611"&gt;https:/
 <wire x1="-3.33278125" y1="0.860959375" x2="-4.78166875" y2="1.2491875" width="0.4" layer="1"/>
 <wire x1="-3.41515" y1="-0.84930625" x2="-4.8640375" y2="-1.237534375" width="0.4" layer="1"/>
 <wire x1="-2.44385" y1="-2.45206875" x2="-3.504509375" y2="-3.512728125" width="0.4" layer="1"/>
+<circle x="0" y="0" radius="2.51246875" width="0.5" layer="29"/>
+<wire x1="1.34150625" y1="-2.383971875" x2="2.09150625" y2="-3.6830125" width="0.5" layer="29"/>
+<wire x1="-1.375" y1="-2.325959375" x2="-2.125" y2="-3.624996875" width="0.5" layer="29"/>
+<wire x1="2.325959375" y1="-1.374996875" x2="3.624996875" y2="-2.124996875" width="0.5" layer="29"/>
+<wire x1="2.68300625" y1="0.033496875" x2="4.18300625" y2="0.033496875" width="0.5" layer="29"/>
+<wire x1="1.308003125" y1="2.26794375" x2="2.05800625" y2="3.566978125" width="0.5" layer="29"/>
+<wire x1="0.016740625" y1="2.645021875" x2="0.01674375" y2="4.14501875" width="0.5" layer="29"/>
+<wire x1="2.359446875" y1="1.3080125" x2="3.658484375" y2="2.058009375" width="0.5" layer="29"/>
+<wire x1="-1.308015625" y1="2.209921875" x2="-2.05800625" y2="3.508959375" width="0.5" layer="29"/>
+<wire x1="-2.255684375" y1="1.2867625" x2="-3.5547125" y2="2.036765625" width="0.5" layer="29"/>
+<wire x1="-2.623784375" y1="0.004475" x2="-4.123775" y2="0.00448125" width="0.5" layer="29"/>
+<wire x1="-2.301425" y1="-1.30801875" x2="-3.60045625" y2="-2.05800625" width="0.5" layer="29"/>
+<wire x1="-0.94575" y1="-3.3746625" x2="-1.333978125" y2="-4.82355" width="0.5" layer="29"/>
+<wire x1="0.890565625" y1="-3.3771875" x2="1.27879375" y2="-4.826075" width="0.5" layer="29"/>
+<wire x1="-1.375" y1="-4.9375" x2="1.1875" y2="-5" width="0.5" layer="29" curve="-330.906573"/>
+<wire x1="2.460446875" y1="-2.48409375" x2="3.52110625" y2="-3.544753125" width="0.5" layer="29"/>
+<wire x1="3.337278125" y1="-0.8854875" x2="4.786165625" y2="-1.273715625" width="0.5" layer="29"/>
+<wire x1="3.31528125" y1="0.8928125" x2="4.76416875" y2="1.281040625" width="0.5" layer="29"/>
+<wire x1="2.460609375" y1="2.4398125" x2="3.52126875" y2="3.500471875" width="0.5" layer="29"/>
+<wire x1="0.875465625" y1="3.307665625" x2="1.26369375" y2="4.756553125" width="0.5" layer="29"/>
+<wire x1="-0.886684375" y1="3.275653125" x2="-1.2749125" y2="4.724540625" width="0.5" layer="29"/>
+<wire x1="-2.414690625" y1="2.429353125" x2="-3.47535" y2="3.4900125" width="0.5" layer="29"/>
+<wire x1="-3.33278125" y1="0.860959375" x2="-4.78166875" y2="1.2491875" width="0.5" layer="29"/>
+<wire x1="-3.41515" y1="-0.84930625" x2="-4.8640375" y2="-1.237534375" width="0.5" layer="29"/>
+<wire x1="-2.44385" y1="-2.45206875" x2="-3.504509375" y2="-3.512728125" width="0.5" layer="29"/>
 </package>
 </packages>
 <symbols>
